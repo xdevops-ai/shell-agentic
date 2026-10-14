@@ -1,0 +1,24 @@
+# Configuration and credentials - never commit these
+.env
+.env.*
+!.env.example
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+*.zip
+
+# OpsBot logs
+*.log
+opsbot_audit.log
+opsbot_debug.log
+
+# Build / release output
+dist/
+opsbot
+opsbot_*.tar.gz
+SHA256SUMS
+
+# OS clutter
+.DS_Store
