@@ -199,11 +199,11 @@ Next steps:
   1. In the XDevOps portal (https://xdevops.ch): Settings -> Devices -> Install OpsBot
      -> Download certificate bundle. (Requires a tenant admin or operator.)
   2. Unpack it into a private directory, e.g.:
-       mkdir -p ~/.opsbot && chmod 700 ~/.opsbot
-       unzip <downloaded-bundle>.zip -d ~/.opsbot
-       chmod 600 ~/.opsbot/opsbot.client.key ~/.opsbot/.env
+       mkdir -p ~/opsbot && chmod 700 ~/opsbot
+       unzip <downloaded-bundle>.zip -d ~/opsbot
+       chmod 600 ~/opsbot/opsbot.client.key ~/opsbot/.env
   3. Start OpsBot from that directory (it reads ./.env from where you start it):
-       cd ~/.opsbot && opsbot
+       cd ~/opsbot && opsbot
 EOF
 }
 
